@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <title>Test</title>
+    <heading></heading>
+    <link href="CSS/bootstrap.css" rel="stylesheet">
+    <link href="CSS/style.css" rel="stylesheet">
+    <script src="JS/function.js"></script>
+    <body class="main">
+        <div class="row justify-content-center">
+         <div class="col-lg-4 col-md-3\3 col-sm-3">
+         <div class="shadow">
+         <h2 style="text-align: center;">Register with Us</h2><br>
+        </div>
+        <form class="shadow">
+        <div class="form-group">
+         <label for="name">Username</label>
+         <input type="text" class="form-control" id="name" required minlength="3">
+         </div>
+         <div class="form-group">
+         <label for="email">Email</label>
+         <input type="text" class="form-control" id="email" required  pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+        </div>
+         <div class="form-group">
+        <label for="Password">Password</label>
+        <input type="text" class="form-control" id="Password" required minlength="6"><div class="form-group"><br>
+         <label for="Password2">Confirm Password</label>
+        <input type="text" class="form-control" id="Password2" aria-required="Password2 is required">
+        </div>
+        <button class="btn btn-outline-primary btn-block" type="submit">Submit</button>
+         </form>
+        </div>
+        </div>
+    </body>
+</html>
